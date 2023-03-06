@@ -46,6 +46,10 @@ p {
   text-align: left;
 }
 
+i {
+  font-size: 15px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 78px;
@@ -139,4 +143,15 @@ p {
 
 .email:hover {
   text-decoration: underline dotted;
+}
+
+.footer {
+  text-align: right;
+  background: none;
+  font-size: 12px;
+}
+
+.footer a {
+  font-size: 12px;
+  text-decoration: none;
 }
