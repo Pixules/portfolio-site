@@ -46,6 +46,18 @@ p {
   text-align: left;
 }
 
+@media (max-width: 576px) {
+  h1 {
+    font-size: 78px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 13.5px;
+  }
+}
+
 .navigation {
   display: flex;
   margin-top: 40px;
