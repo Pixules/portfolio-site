@@ -1,0 +1,130 @@
+:root {
+  --first-colour: #5983ba;
+  --second-colour: #dfdff2;
+  --gradient: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(255, 246, 236, 1) 39.5%,
+    rgba(100, 46, 122, 0.23) 100.2%
+  );
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  margin: 60px auto;
+  max-width: 800px;
+  background: var(--gradient);
+  background-attachment: fixed;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1.3;
+}
+
+h1 {
+  font-size: 90px;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+h3 {
+  font-size: 17px;
+  opacity: 0.5;
+}
+
+p {
+  background: var(--second-colour);
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.navigation {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation a {
+  margin: 18px;
+  border-radius: 5px;
+  padding: 20px 15px;
+  text-decoration: none;
+}
+
+.contact {
+  background: var(--first-colour);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.contact:hover {
+  transform: scale(1.1);
+  transition: all 130ms ease-in-out;
+}
+
+.about-button {
+  color: var(--first-colour);
+  border: 1px dashed var(--first-colour);
+  box-shadow: var(--box-shadow);
+}
+
+.about-button:hover {
+  transform: scale(1.1);
+  transition: all 130ms ease-in-out;
+}
+
+.container {
+  padding: 1.1em;
+}
+
+.project-btn {
+  border-radius: 5px;
+  padding: 18px 13px;
+  text-decoration: none;
+  background: var(--first-colour);
+  box-shadow: var(--box-shadow);
+  color: white;
+  justify-content: start;
+}
+
+.project-btn:hover {
+  opacity: 0.8;
+  transition: all 130ms ease-in-out;
+}
+
+.img-fluid {
+  max-width: 100%;
+}
+
+.img-2 {
+  padding: 0.5rem;
+}
+
+.about-details {
+  display: flex;
+  margin: 28px 0;
+}
+
+.about-details p {
+  margin: 11px;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  color: var(--first-colour);
+  font-size: 26px;
+  text-decoration: none;
+}
+
+.email:hover {
+  text-decoration: underline dotted;
+}
